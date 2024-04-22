@@ -1,0 +1,27 @@
+
+1.Perform tokenization (Whitespace, Punctuation-based, Treebank, Tweet, MWE) using NLTK library.
+Use porter stemmer and snowball stemmer for stemming. Use any technique for lemmatization.
+Tokenization: The process of breaking down a text into smaller units, which are typically words or subwords. These units are called tokens. Tokenization can involve splitting text based on whitespace, punctuation, or specific rules depending on the context or purpose of analysis.
+
+Whitespace Tokenization: This method involves splitting text based on spaces, tabs, or line breaks. Each word or group of characters separated by whitespace becomes a token.
+
+Punctuation-based Tokenization: In this approach, text is divided into tokens based on punctuation marks such as commas, periods, exclamation marks, etc. Punctuation marks themselves can either be treated as separate tokens or ignored.
+
+Treebank Tokenization: Treebank tokenization is a specific tokenization scheme commonly used in natural language processing (NLP). It involves breaking down text into tokens according to linguistic rules, often based on the syntactic structure of sentences.
+
+Tweet Tokenization: This is a specialized form of tokenization tailored for processing tweets on social media platforms like Twitter. It typically considers hashtags, mentions, emojis, and other Twitter-specific elements.
+
+MWE (Multi-Word Expression): Multi-word expressions are sequences of words that function as a single unit in language. Examples include "kick the bucket" and "break the ice." Tokenization methods may treat MWEs as single tokens to preserve their meaning.
+
+Stemming: Stemming is the process of reducing words to their base or root form, often by removing suffixes or prefixes. The goal is to map related words to the same stem, thereby reducing variation in the vocabulary. Stemming algorithms may not always produce valid words.
+
+Stemmer: A stemmer is an algorithm or program that performs stemming. It applies predefined rules to strip affixes from words to obtain their stems.
+
+Porter Stemmer: One of the most well-known stemming algorithms developed by Martin Porter in 1980. It uses a set of rules to strip common suffixes from English words to obtain their stems. While simple and efficient, it may produce stems that are not actual words.
+
+Snowball Stemmer: Also known as the Porter2 stemmer, it is an improvement over the original Porter Stemmer. Snowball is a framework for developing stemming algorithms for various languages. It offers better performance and accuracy compared to the Porter Stemmer.
+
+Lemmatization: Lemmatization is the process of reducing words to their base or dictionary form, known as the lemma. Unlike stemming, lemmatization considers the context of words and aims to produce valid lemmas that are actual words. It often involves dictionary lookup and morphological analysis.
+
+
+ 
