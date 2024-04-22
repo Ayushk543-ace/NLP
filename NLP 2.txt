@@ -1,0 +1,22 @@
+Bag-of-Words (BoW):
+
+BoW is a representation technique used in natural language processing (NLP) and information retrieval. It represents text data by counting the occurrence of words in a document. Each document is represented as a vector, where each dimension corresponds to a unique word in the vocabulary, and the value represents the count of that word in the document. BoW disregards the order and structure of the words in the document, treating each document as an unordered collection of words.
+
+Count Occurrence:
+
+In the context of BoW, count occurrence refers to the simple counting of how many times each word appears in a document. Each word in the document is counted independently of its context or position.
+
+Normalized Count Occurrence:
+
+Normalized count occurrence adjusts the raw counts of words in a document to make them comparable across documents. This normalization typically involves dividing the count of each word by the total number of words in the document or by the maximum count of any word in the document.
+
+Term Frequency-Inverse Document Frequency (TF-IDF):
+TF-IDF is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents (corpus). It combines two components: term frequency (TF) and inverse document frequency (IDF). TF measures how frequently a term occurs in a document, while IDF measures how unique or rare a term is across the entire corpus. The product of TF and IDF gives a weight that represents the importance of the term in the document. TF-IDF helps to address the issue of common words having high frequencies but low significance and rare words having low frequencies but high significance.
+
+Embedding:
+
+Embedding refers to the process of representing words or phrases in a continuous vector space where the geometric distance between vectors captures semantic similarity. Embeddings are dense representations that capture the contextual meaning and relationships between words. They are often learned from large text corpora using deep learning techniques such as Word Embedding Models.
+
+Word2Vec:
+
+Word2Vec is a popular word embedding technique introduced by Tomas Mikolov et al. at Google in 2013. It learns distributed representations of words by training neural networks on large text corpora. Word2Vec represents each word in a fixed-length vector space such that similar words are close to each other in the vector space. It offers two architectures: Continuous Bag-of-Words (CBOW) and Skip-gram. CBOW predicts the target word given the context words, while Skip-gram predicts the context words given the target word. Word2Vec embeddings have been widely used in various NLP tasks such as text classification, sentiment analysis, and machine translation.
