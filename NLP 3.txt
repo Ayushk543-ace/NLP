@@ -1,0 +1,18 @@
+3.Perform text cleaning, perform lemmatization (any method), remove stop words (any method),
+label encoding. Create representations using TF-IDF. Save outputs.
+
+ext Cleaning:
+
+Text cleaning is the process of preparing raw text data for analysis or processing by removing irrelevant characters, symbols, or formatting. It typically involves steps such as: Lowercasing: Converting all text to lowercase to ensure consistency. Removing punctuation: Eliminating punctuation marks like commas, periods, and quotation marks. Removing special characters: Getting rid of non-alphanumeric characters such as emojis or symbols. Removing numbers: Excluding numerical digits that may not contribute to the textual meaning. Handling whitespace: Normalizing spaces, tabs, or line breaks. Removing HTML tags: Stripping out HTML tags if the text includes web content. Correcting spelling: Optionally, correcting spelling errors using techniques like spell-checking. Text cleaning helps improve the quality and consistency of textual data for further analysis or modeling.
+
+Lemmatization:
+
+Lemmatization is the process of reducing words to their base or dictionary form, known as the lemma. Unlike stemming, which simply chops off prefixes or suffixes to derive a root word (stem), lemmatization considers the context and morphological analysis to produce valid lemmas. For example, the lemma of "running" is "run," and the lemma of "better" is also "good." Lemmatization often requires a dictionary or lexicon to map words to their respective lemmas. It is useful in text normalization tasks where maintaining the integrity of words is important, such as in search engines or machine translation systems.
+
+Removing Stop Words:
+
+Stop words are commonly used words in natural language that are often filtered out during text processing because they are considered to have little or no semantic meaning. Examples of stop words include "the," "is," "and," "in," "of," etc. Removing stop words helps reduce noise in text data and focuses attention on more meaningful words that carry important information. However, the list of stop words may vary depending on the specific application or language, and it may be necessary to customize the stop word list accordingly.
+
+Label Encoding:
+
+Label encoding is a process of converting categorical labels or classes into numerical representations. It is commonly used in machine learning algorithms that require numerical input, such as regression or classification models. Each unique label or class is assigned a unique integer value. Label encoding is straightforward and can be done using simple mapping or encoding schemes. However, it's essential to ensure that the numerical representations do not imply any ordinal relationship between the categories unless such a relationship exists. Label encoding is different from one-hot encoding, where each category is represented by a binary vector. In label encoding, the numerical values are ordinal, while in one-hot encoding, they are not.
